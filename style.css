@@ -1,0 +1,131 @@
+body {
+    background: black;
+    color: #e8e8e8;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title-section {
+    width: 40vw;
+    margin-left: 50vw;
+    margin-top: 10%;
+  }
+  
+  #title {
+    text-align: right;
+  }
+  
+  h1 {
+    font-size: 5vw;
+    animation-name: name;
+    animation-duration: 1.5s;
+  }
+  
+  h3 {
+    color: #ffc812;
+    font-size: 2vw;
+    animation-name: title;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes name {
+    from {
+      margin-right: 15%;
+    }
+    to {
+      margin-right: 0%;
+    }
+  }
+  
+  @keyframes title {
+    from {
+      margin-right: 20%;
+    }
+    to {
+      margin-right: 0%;
+    }
+  }
+  
+  #img-div {
+    width: 50vw;
+    margin-top: -20%;
+  }
+  
+  #image {
+    width: 40vw;
+    max-width: 100%;
+    display: block;
+  }
+  
+  #img-caption {
+    text-align: center;
+    margin-bottom: 8%;
+  }
+  
+  .quote {
+    width: 40vw;
+    margin-left: 50vw;
+    margin-top: -40%;
+  }
+  
+  .quote p {
+    font-size: 4vw;
+  }
+  
+  #tribute-info {
+    width: 45vw;
+    height: 50px;
+    background-color: #333333;
+    text-align: center;
+    margin-left: 50vw;
+    border-bottom: 10px white solid;
+  }
+  
+  #tribute-info p {
+    font-size: 2.4vw;
+    padding-top: 5px;
+    padding-right: 5px;
+  }
+  
+  #tribute-link {
+    color: white;
+    font-size: 2.4vw;
+  }
+  
+  @media (max-width: 700px) {
+    .title-section {
+      width: 92%;
+      margin-left: 0px;
+    }
+    
+    h1 {
+      font-size: 8vw;
+    }
+    
+    h3 {
+      font-size: 4vw;
+    }
+    
+    #img-div {
+      width: 100%;
+      margin-top: 0%;
+    }
+    
+    #image {
+      width: 100%;
+    }
+    
+    .quote {
+      width: 96%;
+      margin-top: 5px;
+      margin-left: 4%;
+      margin-bottom: 60px;
+    }
+    
+    .quote p {
+      font-size: 6vw;
+    }
+    
+    #tribute-info {
+      width: 100%;
+    }
+  }
